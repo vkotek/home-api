@@ -1,8 +1,8 @@
 import RPi.GPIO as GPIO
 import time
 
-RELAY_PIN_GARAGE = 17  # GPIO pin connected to the garage
-RELAY_PIN_GATE = 27
+RELAY_PIN_GARAGE = 27  # GPIO pin connected to the garage
+RELAY_PIN_GATE = 17
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
