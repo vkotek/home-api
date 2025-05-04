@@ -15,10 +15,10 @@ GPIO.output(RELAY_PIN_GATE, GPIO.LOW)
 
 def press_remote_garage():
     GPIO.output(RELAY_PIN_GARAGE, GPIO.HIGH)
-    time.sleep(2)
+    time.sleep(3)
     GPIO.output(RELAY_PIN_GARAGE, GPIO.LOW)
 
 def press_remote_gate():
     GPIO.output(RELAY_PIN_GATE, GPIO.HIGH)
-    time.sleep(2)
+    time.sleep(3)
     GPIO.output(RELAY_PIN_GATE, GPIO.LOW)
