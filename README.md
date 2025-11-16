@@ -73,3 +73,8 @@ Make it executable:
     POST /gate/open
 
 An Authorization header with API key must be passed with each request.
+
+## Debugging
+ 
+    journalctl -f -u pragensis.service # live logs
+    systemctl restart pragensis.service
